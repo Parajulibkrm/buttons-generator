@@ -1,8 +1,11 @@
 import './index.css'
+import { Options } from './components/options/Options'
 
 export const App = ():JSX.Element => {
   return (
-    <h1 className="text-center text-red-600 font-bold">Hello World!</h1>
+    <div className="h-screen w-full flex">
+      <Options />
+    </div>
   )
 }
 
