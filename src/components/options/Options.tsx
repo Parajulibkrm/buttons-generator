@@ -3,15 +3,15 @@ export const Options = ():JSX.Element => {
         <nav className="w-1/3 p-8 bg-slate-400">
 
             <h1 className="text-3xl tracking-wider font-bold font-display text-white">Buttons Generator</h1>
-            
+
             <div className="my-8">
                 <ul className="flex flex-col items-center space-y-5 list-none">
-                    <li className="items__list">HELLO WORLD</li>
-                    <li className="items__list">HELLO WORLD</li>
-                    <li className="items__list">HELLO WORLD</li>
-                    <li className="items__list">HELLO WORLD</li>
-                    <li className="items__list">HELLO WORLD</li>
-                    <li className="items__list">HELLO WORLD</li>
+                    <li className="items__list">Normal Button</li>
+                    <li className="items__list">3D Button</li>
+                    <li className="items__list">Button with Shadow</li>
+                    <li className="items__list">Button BG desapear in Hover</li>
+                    <li className="items__list">Retro Button</li>
+                    <li className="items__list">Retro NES Version</li>
                 </ul>
             </div>
 
