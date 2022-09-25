@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'display': "'Cabin', sans-serif",
+      },
+      boxShadow: {
+        'notion': '4px -2px 0px 0px'
       }
     },
   },

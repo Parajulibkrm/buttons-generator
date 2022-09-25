@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 .items__list {
-  @apply border-2 border-gray-300 w-full text-center p-3 font-bold text-white font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg;
+  @apply border-2 border-gray-300 w-full text-center uppercase p-3 font-bold text-white font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg;
 }
+
