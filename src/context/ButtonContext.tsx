@@ -1,9 +1,13 @@
 import { createContext } from "react";
+import { ButtonContextType } from "../types/ButtonTypes";
 
-interface ButtonContextInterface  {
-    stylesClass: string;
-    font: string;
+export const ButtonCtx = createContext<ButtonContextType | null>(null);
+
+export const buttonContext: ButtonContextType = {
+    buttonStyle: 'cyberpunk',
+    copyText: '#fff'
 }
 
-export const ButtonContext = createContext<ButtonContextInterface | null>(null);
+
+
 
