@@ -1,13 +1,25 @@
-import { createContext } from "react";
-import { ButtonContextType } from "../types/ButtonTypes";
+import { createContext, useState } from 'react';
+import { ButtonContextType, Props } from '../types/ButtonTypes';
 
-export const ButtonCtx = createContext<ButtonContextType | null>(null);
-
-export const buttonContext: ButtonContextType = {
-    buttonStyle: 'cyberpunk',
-    copyText: '#fff'
+const defaultState = {
+    style: '',
+    changeStyle: (style:'string') => {}
 }
 
+export const ButtonCtx = createContext<ButtonContextType>(defaultState);
 
+export const ButtonContextProvider: React.FC<Props> = ({ children }) => {
+	const [style, setStyle] = useState(defaultState.style);
+
+	const changeStyle = (e: any) => {
+		setStyle(e.target.id);
+	}
+
+	return (
+		<ButtonCtx.Provider value={{ style, changeStyle }}>
+			{children}
+		</ButtonCtx.Provider>
+	)
+}
 
 

@@ -1,8 +1,12 @@
 export type ButtonProps = {
-    styleButton : string | undefined;
+    styleButton : string;
 }
 
 export type ButtonContextType = {
-    buttonStyle: string;
-    copyText: string;
+    style: string;
+    changeStyle: Function;
+}
+
+export type Props = {
+    children: React.ReactNode,
 }
