@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .items__list {
-  @apply border-2 border-gray-300 w-full text-center uppercase p-3 font-bold text-white font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg;
+  @apply border-2 border-black w-full text-center uppercase p-3 font-bold text-white font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg hover:bg-black hover:border-white;
 }
 
 .normal {
@@ -12,10 +12,6 @@
 
 .shadow {
   @apply w-36 h-12 outline-none font-bold bg-red-400 shadow-red-600 shadow-md text-white transition-all duration-300 hover:shadow-lg hover:shadow-red-300 active:shadow-xl active:shadow-red-300;
-}
-
-.gradient {
-  @apply w-36 h-12 font-bold text-white bg-gradient-to-br from-purple-600 to-blue-500 transition-all duration-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800;
 }
 
 .notion {

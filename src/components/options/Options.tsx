@@ -2,8 +2,8 @@ import { OptionsList } from "./OptionsList"
 
 export const Options = ():JSX.Element => {
     return (
-        <nav className="w-2/5 p-8 bg-slate-400">
-            <h1 className="text-3xl tracking-wider font-bold font-display text-white">Buttons Generator</h1>
+        <nav className="w-2/4 p-8 bg-blue-400 shadow-2xl shadow-black">
+            <h1 className="text-3xl font-bold font-display text-white">Buttons Generator</h1>
             
             <OptionsList />
 

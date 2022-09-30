@@ -1,14 +1,13 @@
 import { useContext } from 'react';
 import { ButtonCtx } from '../../context/ButtonContext';
-import { Button } from "./Button";
+import { Button } from './Button';
 
 export const ButtonContainer = (): JSX.Element => {
+	const buttonContext = useContext(ButtonCtx);
 
-  const buttonContext = useContext(ButtonCtx);
-  
-  return (
-    <section className="w-full grid place-content-center content-center p-12">
-        <Button styleButton={buttonContext?.style || 'normal'} />
-    </section>
-  )
+	return (
+		<section className="w-full grid place-content-center content-center p-12 bg-button-section-bg bg-cover bg-no-repeat">
+			<Button styleButton={buttonContext?.style || 'normal'} />
+		</section>
+	)
 }

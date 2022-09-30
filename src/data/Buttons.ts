@@ -1,6 +1,7 @@
 export const buttons = [
     {
         name: 'normal',
+        button: 'Button Normal',
         styles: `button.normal {
             width: 140px;
             height: 40px;
@@ -19,6 +20,7 @@ export const buttons = [
     },
     {
         name: 'shadow',
+        button: 'Button with Shadow',
         styles: `button.shadow {
             width: 140px;
             height: 40px;
@@ -39,6 +41,7 @@ export const buttons = [
     },
     {
         name: 'notion',
+        button: 'Button Notion Style',
         styles: `button.notion {
             width: 140px;
             height: 40px;
@@ -55,6 +58,7 @@ export const buttons = [
     },
     {
         name: 'windows',
+        button: 'Button Windows Vista',
         styles: `button.windows {
           width: 140px;
           height: 40px;
@@ -74,6 +78,7 @@ export const buttons = [
     },
     {
       name: 'cyberpunk',
+      button: "Button Cyberpunk",
       styles: `button.cyberpunk {
         width: 140px;
         height: 40px;
