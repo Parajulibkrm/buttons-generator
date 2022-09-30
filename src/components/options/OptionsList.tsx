@@ -12,7 +12,7 @@ export const OptionsList = (): JSX.Element => {
         <li className="items__list" id="shadow" onClick={(e) => changeStyle(e)}>Button with Shadow</li>
         <li className="items__list" id="gradient" onClick={(e) => changeStyle(e)}>Button Gradient Duotone</li>
         <li className="items__list" id="notion" onClick={(e) => changeStyle(e)}>Button Notion Style</li>
-        <li className="items__list" id="windows" onClick={(e) => changeStyle(e)}>Retro Window Version</li>
+        <li className="items__list" id="windows" onClick={(e) => changeStyle(e)}>Retro Windows Version</li>
         <li className="items__list" id="cyberpunk" onClick={(e) => changeStyle(e)}>Button Cyberpunk</li>
       </ul>
     </div>

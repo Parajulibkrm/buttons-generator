@@ -2,7 +2,7 @@ export const buttons = [
     {
         name: 'normal',
         styles: `button.normal {
-            width: 120px;
+            width: 140px;
             height: 40px;
             border: 2px solid #000;
             font-weight: bold;
@@ -20,7 +20,7 @@ export const buttons = [
     {
         name: 'shadow',
         styles: `button.shadow {
-            width: 120px;
+            width: 140px;
             height: 40px;
             border: none;
             outline: none;
@@ -40,7 +40,7 @@ export const buttons = [
     {
         name: 'notion',
         styles: `button.notion {
-            width: 120px;
+            width: 140px;
             height: 40px;
             border: 2px solid #000;
             box-shadow: 4px -2px 0px 0px;
@@ -55,26 +55,45 @@ export const buttons = [
     },
     {
         name: 'windows',
-        styles: `button.cyberpunk {
-            width: 120px;
-            height: 40px;
-            color: #fff;
-            border: none;
-            outline: none;
-            background-color: #e11d48;
-            text-transform: uppercase;
-            font-weight: bold;
-            letter-spacing: 0.05em;
-            box-shadow: 6px -2px 0px 0px #7dd3fc;
-            cursor: pointer;
-            transition: .3s ease;
-          }
-          
-          button.cyberpunk:hover {
-            background-color: #7dd3fc;
-            color: #e11d48;
-            box-shadow: none;
-          }`
+        styles: `button.windows {
+          width: 140px;
+          height: 40px;
+          font-weight: 600;
+          border-top: 2px solid #fff;
+          border-left: 2px solid #fff;
+          border-bottom: 2px solid #000;
+          border-right: 2px solid #000;
+          background-color: #d1d5db;
+          transition: .3s ease;
+          cursor: pointer;
+        }
+        
+        button.windows:active {
+          box-shadow: 0 1px 2px 0 #000;
+        }`
+    },
+    {
+      name: 'cyberpunk',
+      styles: `button.cyberpunk {
+        width: 140px;
+        height: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        background-color: #e11d48;
+        border: none;
+        outline: none;
+        box-shadow: 4px -2px 0px 0px #7dd3fc;
+        transition: .3s ease;
+        cursor: pointer;
+      }
+      
+      button.cyberpunk:hover {
+        box-shadow: none;
+        background-color: #7dd3fc;
+        color: #e11d48;
+      }`
     }
 ]
 
