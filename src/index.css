@@ -23,7 +23,7 @@
 }
 
 .windows {
-  @apply w-36 h-10 border-2 border-t-2 border-t-white border-l-white border-b-black border-r-black bg-gray-300 transition-all duration-300 active:border-transparent active:shadow-sm active:shadow-black;
+  @apply w-36 h-10 border-2 border-t-2 border-t-white border-l-white border-b-black border-r-black bg-gray-300 transition-all duration-300 active:shadow-sm active:shadow-black;
 }
 
 .cyberpunk {
