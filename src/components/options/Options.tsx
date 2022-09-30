@@ -4,7 +4,7 @@ export const Options = ():JSX.Element => {
     return (
         <nav className="w-2/4 p-8 bg-blue-400 shadow-2xl shadow-black">
             <h1 className="text-3xl font-bold font-display text-white">Buttons Generator</h1>
-            
+            <h2 className='my-2 text-white font-bold w-fit'>Click in the "Hello World" button to copy the styles</h2>
             <OptionsList />
 
             <div className="mt-4">
@@ -14,7 +14,6 @@ export const Options = ():JSX.Element => {
                         lain_ts
                     </a>
                 </span>
-            
             </div>
         </nav>
     )       
