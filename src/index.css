@@ -33,3 +33,7 @@
 .btn-rounded {
   @apply w-36 h-12 bg-transparent border-2 border-black rounded-xl outline-none font-bold tracking-wide uppercase transition-all duration-300 hover:rounded-none hover:bg-black hover:text-white hover:border-4 hover:border-white
 }
+
+.btn-github {
+  @apply w-36 h-12 bg-transparent appearance-none bg-green-600 rounded-md box-border text-white cursor-pointer inline-block text-sm font-semibold leading-5 relative text-center no-underline select-none align-middle hover:bg-green-700
+}
