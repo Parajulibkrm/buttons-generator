@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .items__list {
-  @apply border-2 border-black w-full text-center uppercase p-3 font-bold text-white font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg hover:bg-black hover:border-white;
+  @apply border-2 border-black w-full text-center uppercase p-3 font-bold text-black font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg hover:bg-black hover:text-white hover:border-white;
 }
 
 .normal {
@@ -24,4 +24,12 @@
 
 .cyberpunk {
   @apply w-36 h-12 text-white bg-rose-600 uppercase tracking-wider shadow-notion shadow-sky-300 font-bold transition-all duration-300 hover:shadow-rose-600 hover:bg-sky-300 hover:text-rose-500 hover:shadow-none;
+}
+
+.btn-scale {
+  @apply w-36 h-12 border-none outline-none font-bold bg-[#3e9fee] text-white transition-all duration-300 hover:scale-90 hover:text-[#3e9fee] hover:bg-white 
+}
+
+.btn-rounded {
+  @apply w-36 h-12 bg-transparent border-2 border-black rounded-xl outline-none font-bold tracking-wide uppercase transition-all duration-300 hover:rounded-none hover:bg-black hover:text-white hover:border-4 hover:border-white
 }

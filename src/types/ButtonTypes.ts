@@ -1,7 +1,3 @@
-export type ButtonProps = {
-    styleButton : string;
-}
-
 export type ButtonContextType = {
     style: string;
     copy: string;
@@ -14,5 +10,5 @@ export type stylesObj = {
 }
 
 export type Props = {
-    children: React.ReactNode,
+    children: React.ReactNode;
 }

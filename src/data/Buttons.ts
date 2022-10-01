@@ -1,5 +1,6 @@
 export const buttons = [
-    {
+    { 
+        id: 1,
         name: 'normal',
         button: 'Button Normal',
         styles: `button.normal {
@@ -19,6 +20,7 @@ export const buttons = [
           }`
     },
     {
+        id: 2,
         name: 'shadow',
         button: 'Button with Shadow',
         styles: `button.shadow {
@@ -40,6 +42,7 @@ export const buttons = [
           `
     },
     {
+        id: 3,
         name: 'notion',
         button: 'Button Notion Style',
         styles: `button.notion {
@@ -57,6 +60,7 @@ export const buttons = [
           }`
     },
     {
+        id: 4,
         name: 'windows',
         button: 'Button Windows Vista',
         styles: `button.windows {
@@ -77,6 +81,7 @@ export const buttons = [
         }`
     },
     {
+      id: 5,
       name: 'cyberpunk',
       button: "Button Cyberpunk",
       styles: `button.cyberpunk {
@@ -98,6 +103,54 @@ export const buttons = [
         box-shadow: none;
         background-color: #7dd3fc;
         color: #e11d48;
+      }`
+    },
+    {
+      id: 6,
+      name: 'btn-scale',
+      button: 'Button with Scale effect',
+      styles: `button.scale-btn {
+        width: 140px;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-weight: bold;
+        background-color: #3e9fee;
+        color: #fff;
+        cursor: pointer;
+        transition: .4s ease;
+      }
+      
+      button.scale-btn:hover {
+        transform: scale(0.8);
+        border: 2px solid #3e9fee;
+        color: #3e9fee;
+        background-color: #fff;
+      }`
+    },
+    {
+      id: 7,
+      name: 'btn-rounded',
+      button: 'Rounded/Rect Borders',
+      styles: `button.btn-rounded {
+        width: 140px;
+        height: 40px;
+        background-color: transparent;
+        border: 2px solid #000;
+        border-radius: 10px;
+        outline: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .3s ease;
+      }
+      
+      button.btn-rounded:hover {
+        border-radius: 0px;
+        background-color: #000;
+        color: #fff;
+        border: 4px solid #fff;
       }`
     }
 ]
